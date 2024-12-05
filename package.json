@@ -12,7 +12,6 @@
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
-		"compile-lib": "tsc --build node_modules/@cashu/cashu-ts/tsconfig.es5.json"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
