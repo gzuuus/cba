@@ -11,7 +11,8 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
-		"test": "npm run test:unit -- --run"
+		"test": "npm run test:unit -- --run",
+		"compile-lib": "tsc --build node_modules/@cashu/cashu-ts/tsconfig.es5.json"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -34,7 +35,7 @@
 		"vitest": "^2.0.4"
 	},
 	"dependencies": {
-		"@cashu/cashu-ts": "^2.0.0",
+		"@cashu/cashu-ts": "github:cashubtc/cashu-ts#locktime",
 		"@noble/hashes": "^1.6.1",
 		"@tailwindcss/forms": "^0.5.9",
 		"bip32": "5.0.0-rc.0",

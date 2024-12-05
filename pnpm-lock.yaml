@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@cashu/cashu-ts':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: github:cashubtc/cashu-ts#locktime
+        version: https://codeload.github.com/cashubtc/cashu-ts/tar.gz/62282920063446e403315385e28a7e2d59ce87cf
       '@noble/hashes':
         specifier: ^1.6.1
         version: 1.6.1
@@ -98,8 +98,9 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@cashu/cashu-ts@2.0.0':
-    resolution: {integrity: sha512-neVWZGviQGFf2RlpVpEerf8zQZDR4HvzmDj58gsae1gOQxzaZoU9BdAyRjVpcvz/dPTYQKZii9mUTAgR+fof2w==}
+  '@cashu/cashu-ts@https://codeload.github.com/cashubtc/cashu-ts/tar.gz/62282920063446e403315385e28a7e2d59ce87cf':
+    resolution: {tarball: https://codeload.github.com/cashubtc/cashu-ts/tar.gz/62282920063446e403315385e28a7e2d59ce87cf}
+    version: 2.0.0-rc3
 
   '@cashu/crypto@0.3.4':
     resolution: {integrity: sha512-mfv1Pj4iL1PXzUj9NKIJbmncCLMqYfnEDqh/OPxAX0nNBt6BOnVJJLjLWFlQeYxlnEfWABSNkrqPje1t5zcyhA==}
@@ -1843,7 +1844,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@cashu/cashu-ts@2.0.0':
+  '@cashu/cashu-ts@https://codeload.github.com/cashubtc/cashu-ts/tar.gz/62282920063446e403315385e28a7e2d59ce87cf':
     dependencies:
       '@cashu/crypto': 0.3.4
       '@noble/curves': 1.7.0
